@@ -20,6 +20,14 @@ For better maintainability and clear progression tracking, the repository is org
 - **Sequence Manipulation**: String iteration and reverse counting.
 - **Pattern Generation**: Visualizing logic through nested structures (e.g., Star patterns).
 
+### 📁 [Day_04_While_Loops](./Day_04_While_Loops)
+*Conditional Iteration & Control Flow*
+- **Basic While Loops**: Implementing condition-based iteration.
+- **Sentinel Values**: Using specific inputs to terminate loops dynamically.
+- **Control Statements**: Mastering `break` for early exit and `continue` for skipping iterations.
+- **Loop Else Block**: Understanding the `while...else` structure unique to Python.
+- **Logic Building**: Applying while loops to math (Factorials) and simple logic games.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
