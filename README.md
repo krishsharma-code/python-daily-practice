@@ -28,6 +28,15 @@ For better maintainability and clear progression tracking, the repository is org
 - **Loop Else Block**: Understanding the `while...else` structure unique to Python.
 - **Logic Building**: Applying while loops to math (Factorials) and simple logic games.
 
+### 📁 [Day_05_Functions](./Day_05_Functions)
+*Modular Programming & Scope*
+- **Function Basics**: Defining and calling reusable blocks of code.
+- **Arguments & Parameters**: Mastering positional, keyword, and default arguments.
+- **Return Values**: Handling single and multiple outputs (tuples) from functions.
+- **Variable Scope**: Understanding Local vs Global namespaces.
+- **Advanced Concepts**: Anonymous (Lambda) functions and variable-length arguments (`*args`, `**kwargs`).
+- **Logic Modules**: Building function-driven tools like calculators and string processors.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
