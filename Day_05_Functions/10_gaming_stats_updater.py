@@ -1,38 +1,36 @@
 # 10_gaming_stats_updater.py
-# Concept: Logic script simulating player score updates using functions
+# Concept: Simulating player score updates using functions
 
-# Global game state
-player_score = 0
+# Initial player stats
+player_data = {
+    'name': 'Krish',
+    'score': 0,
+    'health': 100,
+    'level': 1
+}
 
-def add_points(points):
-    """
-    Demonstrates using the 'global' keyword to modify a global variable.
-    """
-    global player_score
-    player_score += points
-    print(f"Points added: {points}. Current Score: {player_score}")
+def update_score(stats, points):
+    """Updates the player's score and handles level-ups."""
+    stats['score'] += points
+    print(f"Added {points} points. Total Score: {stats['score']}")
+    
+    # Simple level-up logic
+    if stats['score'] >= 100 * stats['level']:
+        stats['level'] += 1
+        print(f"CONGRATS! You reached Level {stats['level']}!")
 
-def reset_score():
-    global player_score
-    player_score = 0
-    print("Score reset to zero.")
-
-def check_rank(score):
-    """Returns rank based on score."""
-    if score >= 100:
-        return "Pro"
-    elif score >= 50:
-        return "Amateur"
-    else:
-        return "Noob"
+def take_damage(stats, damage):
+    """Reduces player health."""
+    stats['health'] -= damage
+    if stats['health'] < 0:
+        stats['health'] = 0
+    print(f"Took {damage} damage. Health: {stats['health']}")
 
 # Simulating gameplay
-add_points(20)
-add_points(45)
-print(f"Player Rank: {check_rank(player_score)}")
+print(f"Starting Game: {player_data}")
 
-add_points(40)
-print(f"Final Score: {player_score}")
-print(f"Final Rank: {check_rank(player_score)}")
+update_score(player_data, 50)
+take_damage(player_data, 20)
+update_score(player_data, 60) # Should trigger level up
 
-reset_score()
+print(f"Final Stats: {player_data}")
