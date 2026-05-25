@@ -37,6 +37,14 @@ For better maintainability and clear progression tracking, the repository is org
 - **Advanced Concepts**: Anonymous (Lambda) functions and variable-length arguments (`*args`, `**kwargs`).
 - **Logic Modules**: Building function-driven tools like calculators and string processors.
 
+### 📁 [Day_06_Data_Structures](./Day_06_Data_Structures)
+*Advanced Sequences & Mappings* ✅ **COMPLETED**
+- **Lists & Mutability**: mastering dynamic arrays and sequence slicing.
+- **Tuples & Sets**: Understanding immutability and mathematical set operations (union/intersection).
+- **Dictionaries**: Deep dive into key-value pairs and nested structures.
+- **Comprehensions**: Writing "Pythonic" code with list and dictionary comprehensions.
+- **Practical Data**: Implementing Stacks, Queues, and mock AI datasets.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
