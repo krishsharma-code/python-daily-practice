@@ -29,7 +29,7 @@ For better maintainability and clear progression tracking, the repository is org
 - **Logic Building**: Applying while loops to math (Factorials) and simple logic games.
 
 ### 📁 [Day_05_Functions](./Day_05_Functions)
-*Modular Programming & Scope*
+*Modular Programming & Scope* ✅ **COMPLETED**
 - **Function Basics**: Defining and calling reusable blocks of code.
 - **Arguments & Parameters**: Mastering positional, keyword, and default arguments.
 - **Return Values**: Handling single and multiple outputs (tuples) from functions.
