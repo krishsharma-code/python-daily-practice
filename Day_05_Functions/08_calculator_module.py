@@ -6,29 +6,32 @@ def subtract(a, b): return a - b
 def multiply(a, b): return a * b
 def divide(a, b):
     if b == 0:
-        return "Error: Cannot divide by zero!"
+        return "Error: Division by zero!"
     return a / b
 
 def calculator():
-    print("--- Function-Based Calculator ---")
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
-    op = input("Choose operation (+, -, *, /): ")
-
-    if op == '+':
-        print(f"Result: {add(num1, num2)}")
-    elif op == '-':
-        print(f"Result: {subtract(num1, num2)}")
-    elif op == '*':
-        print(f"Result: {multiply(num1, num2)}")
-    elif op == '/':
-        print(f"Result: {divide(num1, num2)}")
+    """Main calculator logic using functions."""
+    print("--- Functional Calculator ---")
+    print("Select operation: 1.Add, 2.Subtract, 3.Multiply, 4.Divide")
+    
+    choice = input("Enter choice (1/2/3/4): ")
+    
+    if choice in ('1', '2', '3', '4'):
+        num1 = float(input("Enter first number: "))
+        num2 = float(input("Enter second number: "))
+        
+        if choice == '1':
+            print(f"Result: {add(num1, num2)}")
+        elif choice == '2':
+            print(f"Result: {subtract(num1, num2)}")
+        elif choice == '3':
+            print(f"Result: {multiply(num1, num2)}")
+        elif choice == '4':
+            print(f"Result: {divide(num1, num2)}")
     else:
-        print("Invalid Operation!")
+        print("Invalid Input")
 
-# We wrap the call in a check to see if the script is run directly
+# Execute the calculator
 if __name__ == "__main__":
-    # Skipping interactive call for automated environments, 
-    # but demonstrating how it would work.
-    print("Calculator Module Loaded. Example: add(5,3) =", add(5,3))
-    # calculator() 
+    # We use this block to ensure calculator() only runs if the script is executed directly
+    calculator()
