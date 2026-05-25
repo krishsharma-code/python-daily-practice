@@ -1,14 +1,16 @@
 # 02_positional_args.py
-# Concept: Passing basic arguments (positional arguments)
+# Concept: Passing basic positional arguments
 
-def celebrate_achievement(name, task_name):
+def greet_person(first_name, last_name):
     """
-    Greets a user by name and mentions their completed task.
-    These are positional arguments: their order matters.
+    This function takes two positional arguments.
+    The order in which you pass arguments matters.
     """
-    print(f"Congratulations {name}!")
-    print(f"You have successfully mastered: {task_name}")
+    print(f"Hello, {first_name} {last_name}!")
+    print("Positional arguments are assigned based on their order.")
 
-# Calling the function with values (arguments) matching the parameters' order.
-celebrate_achievement("Krish", "Positional Arguments")
-celebrate_achievement("Student", "Basic Functions")
+# Correct order: 'Krish' -> first_name, 'Sharma' -> last_name
+greet_person("Krish", "Sharma")
+
+# Swapping the order will change the assignment
+greet_person("Sharma", "Krish")
