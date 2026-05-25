@@ -1,9 +1,10 @@
 # 07_args_kwargs.py
-# Concept: Handling variable number of arguments with *args and **kwargs
+# Concept: Handling variable number of arguments
 
 def make_pizza(size, *toppings):
     """
-    *args (toppings) collects all extra positional arguments into a tuple.
+    Summarize the pizza we are about to make.
+    *toppings collects as many positional arguments as the caller provides into a tuple.
     """
     print(f"\nMaking a {size}-inch pizza with the following toppings:")
     for topping in toppings:
@@ -11,7 +12,8 @@ def make_pizza(size, *toppings):
 
 def build_profile(first, last, **user_info):
     """
-    **kwargs (user_info) collects all extra keyword arguments into a dictionary.
+    Build a dictionary containing everything we know about a user.
+    **user_info collects arbitrary keyword arguments into a dictionary.
     """
     user_info['first_name'] = first
     user_info['last_name'] = last
