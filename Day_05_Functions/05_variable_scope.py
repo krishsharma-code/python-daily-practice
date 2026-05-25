@@ -1,17 +1,25 @@
 # 05_variable_scope.py
-# Concept: Local vs Global variables
+# Concept: Local vs Global Variables
 
-# This is a global variable
-message = "I am a Global Message"
+# Global variable: Defined outside any function
+player_score = 100
 
-def show_message():
-    # This is a local variable, it only exists inside this function
-    local_msg = "I am a Local Message"
-    print(f"Inside function: {local_msg}")
-    print(f"Inside function (accessing global): {message}")
+def update_score():
+    """Demonstrates local vs global scope."""
+    # Local variable: Only exists inside this function
+    bonus_points = 50
+    
+    # Accessing global variable (Read-only by default)
+    print(f"Current score inside function: {player_score}")
+    print(f"Bonus points: {bonus_points}")
+    
+    # To modify a global variable, use the 'global' keyword
+    global player_score
+    player_score += bonus_points
 
-show_message()
+print(f"Initial global score: {player_score}")
+update_score()
+print(f"Updated global score: {player_score}")
 
-print(f"Outside function (accessing global): {message}")
-
-# print(local_msg) # This would raise a NameError because local_msg is not defined globally
+# This would cause an error because bonus_points is local to update_score()
+# print(bonus_points)
