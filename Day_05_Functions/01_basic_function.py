@@ -1,14 +1,19 @@
 # 01_basic_function.py
-# Concept: Simple function definition and execution
+# Concept: Defining and calling a simple function
 
-def greet_user():
+def display_welcome_message():
     """
-    A simple function that prints a greeting message.
-    The triple quotes above are a docstring, used to describe what the function does.
+    A simple function that prints a greeting.
+    This demonstrates the basic 'def' keyword and function call syntax.
     """
-    print("Welcome to Day 5: Python Functions!")
-    print("Functions help us organize code into reusable blocks.")
+    print("-" * 30)
+    print("Python Day 5: Functions!")
+    print("Modularizing code for reusability.")
+    print("-" * 30)
 
-# To execute the function, we must 'call' it by its name followed by parentheses.
-greet_user()
-greet_user()  # Calling it again demonstrates reusability.
+# Calling the function
+# Functions do nothing until they are explicitly called.
+display_welcome_message()
+
+# Reusability in action
+display_welcome_message()
