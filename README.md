@@ -45,6 +45,15 @@ For better maintainability and clear progression tracking, the repository is org
 - **Comprehensions**: Writing "Pythonic" code with list and dictionary comprehensions.
 - **Practical Data**: Implementing Stacks, Queues, and mock AI datasets.
 
+### 📁 [Day_07_Functions_and_Errors](./Day_07_Functions_and_Errors)
+*Modular Programming, File I/O & Robust Logic* ✅ **COMPLETED**
+- **Advanced Functions**: Deep dive into `*args`, `**kwargs`, and nested functions.
+- **Anonymous Logic**: Mastering `lambda`, `map()`, and `filter()`.
+- **Scope Management**: Handling Local vs Global variables using the `global` keyword.
+- **Error Handling**: Implementing `try-except-else-finally` blocks and custom exceptions.
+- **File I/O**: Practical application of reading, writing, and appending to `.txt` files.
+- **Robust Systems**: Building fault-tolerant calculators and mock data cleaners.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
