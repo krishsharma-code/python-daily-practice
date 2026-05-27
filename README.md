@@ -54,6 +54,16 @@ For better maintainability and clear progression tracking, the repository is org
 - **File I/O**: Practical application of reading, writing, and appending to `.txt` files.
 - **Robust Systems**: Building fault-tolerant calculators and mock data cleaners.
 
+### 📁 [Day_08_OOP_Basics](./Day_08_OOP_Basics)
+*Object-Oriented Programming (OOP) Fundamentals* ✅ **COMPLETED**
+- **Classes & Objects**: Defining blueprints and instantiating objects.
+- **Constructors**: Using `__init__` for attribute initialization.
+- **Methods**: Implementing instance methods to manipulate object data.
+- **Variable Scope**: Understanding Class variables vs Instance variables.
+- **Inheritance & Polymorphism**: Creating parent/child relationships and method overriding.
+- **Encapsulation**: Data hiding using private attributes and getter/setter methods.
+- **Practical OOP**: Building models for Gaming, Networking, and YouTube management.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
