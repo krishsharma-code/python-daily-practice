@@ -64,6 +64,16 @@ For better maintainability and clear progression tracking, the repository is org
 - **Encapsulation**: Data hiding using private attributes and getter/setter methods.
 - **Practical OOP**: Building models for Gaming, Networking, and YouTube management.
 
+### 📁 [Day_09_Advanced_OOP](./Day_09_Advanced_OOP)
+*Advanced Object-Oriented Programming* ✅ **COMPLETED**
+- **Magic Methods (Dunder)**: Mastering `__str__`, `__repr__`, `__add__`, and `__eq__` for custom object behavior.
+- **Class Methods**: Using `@classmethod` for alternative constructors and class-level logic.
+- **Static Methods**: Implementing `@staticmethod` for utility functions that don't require instance state.
+- **Property Decorators**: Using `@property` for managed attribute access (Getters, Setters, Deleters).
+- **Custom Exceptions**: Designing user-defined error classes for robust error handling.
+- **Abstract Base Classes (ABC)**: Enforcing method implementation in child classes using the `abc` module.
+- **Complex Models**: Building advanced systems for Inventory Management, YouTube Analytics, and Network Data Packets.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
