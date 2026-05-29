@@ -74,6 +74,15 @@ For better maintainability and clear progression tracking, the repository is org
 - **Abstract Base Classes (ABC)**: Enforcing method implementation in child classes using the `abc` module.
 - **Complex Models**: Building advanced systems for Inventory Management, YouTube Analytics, and Network Data Packets.
 
+### 📁 [Day_10_File_and_OS_Operations](./Day_10_File_and_OS_Operations)
+*File Handling, OS Module & Data Serialization* ✅ **COMPLETED**
+- **File I/O Basics**: Mastering `open()`, `read()`, `write()`, and `append()` modes.
+- **Context Managers**: Implementing safe file operations using the `with` statement.
+- **OS Module**: Navigating directories, listing files, and path management.
+- **Data Formats**: Parsing and generating `CSV` and `JSON` data for configuration and storage.
+- **System Utilities**: Using `shutil` for backups and `sys.argv` for CLI tool development.
+- **Practical Tools**: Building game save managers, log archivers, and metadata extractors.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
