@@ -83,6 +83,17 @@ For better maintainability and clear progression tracking, the repository is org
 - **System Utilities**: Using `shutil` for backups and `sys.argv` for CLI tool development.
 - **Practical Tools**: Building game save managers, log archivers, and metadata extractors.
 
+### 📁 [Day_11_OOP_Fundamentals](./Day_11_OOP_Fundamentals)
+*Object-Oriented Programming (OOP) Fundamentals* ✅ **COMPLETED**
+- **Classes & Objects**: Defining blueprints, instantiating objects, and understanding `self`.
+- **Constructors**: Using `__init__` for attribute initialization.
+- **Variable Scope**: Mastering Class variables vs Instance variables.
+- **Inheritance**: Creating parent/child relationships and using `super()`.
+- **Polymorphism**: Method overriding and unified interfaces.
+- **Encapsulation**: Data protection using private attributes (`_` and `__`).
+- **Magic Methods**: Implementing dunder methods like `__str__` and `__len__`.
+- **Practical OOP**: Building models for Team Management, PC Building, and YouTube Metadata.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
