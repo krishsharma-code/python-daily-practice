@@ -94,6 +94,18 @@ For better maintainability and clear progression tracking, the repository is org
 - **Magic Methods**: Implementing dunder methods like `__str__` and `__len__`.
 - **Practical OOP**: Building models for Team Management, PC Building, and YouTube Metadata.
 
+### 📁 [Day_12_Advanced_OOP](./Day_12_Advanced_OOP)
+*Advanced Object-Oriented Programming* ✅ **COMPLETED**
+- **Class & Static Methods**: Mastering `@classmethod` and `@staticmethod` for versatile class design.
+- **Property Decorators**: Implementing managed attribute access with Getters, Setters, and Deleters.
+- **Abstract Base Classes**: Enforcing structural contracts in subclasses using the `abc` module.
+- **Multiple Inheritance**: Understanding MRO (Method Resolution Order) and multi-parent hierarchies.
+- **Custom Exceptions**: Designing domain-specific error classes for robust OOP applications.
+- **Dataclasses**: Leveraging `@dataclass` for concise and efficient data modeling.
+- **Operator Overloading**: Implementing dunder methods for custom mathematical object behavior.
+- **Design Patterns**: Implementing the Singleton pattern for centralized state management.
+- **Object Serialization**: Using `pickle` to save and restore complex class instances.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
