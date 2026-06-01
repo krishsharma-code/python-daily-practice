@@ -106,6 +106,16 @@ For better maintainability and clear progression tracking, the repository is org
 - **Design Patterns**: Implementing the Singleton pattern for centralized state management.
 - **Object Serialization**: Using `pickle` to save and restore complex class instances.
 
+### 📁 [Day_13_Scraping_and_APIs](./Day_13_Scraping_and_APIs)
+*Web Scraping, API Integration & Data Automation* ✅ **COMPLETED**
+- **HTTP Requests**: Mastering GET and POST methods using the `requests` library.
+- **HTML Parsing**: Using `BeautifulSoup` to navigate and extract data from DOM structures.
+- **CSS Selectors**: Implementing advanced `.select()` queries for precise data extraction.
+- **REST APIs**: Fetching and parsing JSON data from live endpoints (e.g., PokeAPI).
+- **Data Serialization**: Automating mock data generation and exporting to `JSON` and `CSV` formats.
+- **Browser Automation**: Basic setup and interaction using `Selenium` for dynamic web tasks.
+- **Robust Scraping**: Implementing error handling, timeouts, and status code verification.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
