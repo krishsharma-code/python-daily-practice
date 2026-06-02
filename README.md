@@ -116,6 +116,17 @@ For better maintainability and clear progression tracking, the repository is org
 - **Browser Automation**: Basic setup and interaction using `Selenium` for dynamic web tasks.
 - **Robust Scraping**: Implementing error handling, timeouts, and status code verification.
 
+### 📁 [Day_14_Gemini_CLI_Suite](./Day_14_Gemini_CLI_Suite)
+*Gemini AI Integration & CLI Automation* ✅ **COMPLETED**
+- **Gemini SDK**: Mastering connectivity with `google-generativeai` using `gemini-2.5-flash` and `gemini-2.5-pro`.
+- **CLI Tooling**: Building command-line utilities for code explanation and image analysis.
+- **Automated Documentation**: Generating dynamic Markdown documentation from source code metadata.
+- **Structured Data**: Extracting precise JSON objects from unstructured text using Gemini's JSON mode.
+- **System Instructions**: Configuring specialized AI agents with strict personas (e.g., Security Auditor).
+- **Token Management**: Implementing token counting and cost estimation utilities.
+- **Resilient Logic**: Building robust API interaction layers with exponential backoff and error handling.
+- **Conversation Logging**: Designing persistent chat loops with automated history serialization.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
