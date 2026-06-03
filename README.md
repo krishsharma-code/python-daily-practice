@@ -127,6 +127,19 @@ For better maintainability and clear progression tracking, the repository is org
 - **Resilient Logic**: Building robust API interaction layers with exponential backoff and error handling.
 - **Conversation Logging**: Designing persistent chat loops with automated history serialization.
 
+### 📁 [Day_15_Gemini_Ultimate_CLI](./Day_15_Gemini_Ultimate_CLI)
+*Gemini AI Advanced CLI Mastery* ✅ **COMPLETED**
+- **Repository Auditing**: Scanning directories for dead code and syntax errors via Gemini.
+- **Git Automation**: Generating conventional commit messages from raw `git diff` output.
+- **Security Patching**: Automated secure code refactoring and file patching.
+- **Interactive Shell**: Building a dynamic terminal-based AI chat loop.
+- **Dependency Analytics**: Identifying deprecated and vulnerable packages in `requirements.txt`.
+- **Log Anomaly Detection**: Real-time streaming analysis of system logs for threat detection.
+- **Environment Sanitization**: Scrubbing sensitive data and standardizing config templates.
+- **Token Throttling**: Implementing dynamic execution blocking based on token payload limits.
+- **Documentation Sync**: Automatically regenerating project READMEs from source code metadata.
+- **Model Benchmarking**: Comparative analysis of execution speeds and response quality across multiple Gemini models.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
