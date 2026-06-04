@@ -140,6 +140,19 @@ For better maintainability and clear progression tracking, the repository is org
 - **Documentation Sync**: Automatically regenerating project READMEs from source code metadata.
 - **Model Benchmarking**: Comparative analysis of execution speeds and response quality across multiple Gemini models.
 
+### 📁 [Day_16_Agentic_Workflows](./Day_16_Agentic_Workflows)
+*Gemini AI Agentic Workflows Mastery* ✅ **COMPLETED**
+- **Smart Web Scraper**: Extracting structured JSON content from raw HTML via Gemini.
+- **RAG Doc Querier**: Interactive Q&A system for local documents using text chunking.
+- **Subnet Analyzer Bot**: Combining network logic with AI-driven security recommendations.
+- **Advanced Chat Memory**: Manual history management for contextual terminal chat loops.
+- **Automated Test Writer**: Generating edge-case `pytest` suites from source code.
+- **JSON Schema Enforcer**: Repairing malformed JSON logs using Gemini's structural correction.
+- **API Cost Estimator**: Precise token tracking and pricing analysis for Gemini deployments.
+- **Code Translation CLI**: Automated cross-language logic migration (Python to Node.js).
+- **Error Stack Resolver**: Root cause analysis and step-by-step resolution of tracebacks.
+- **Architecture Planner**: Strategic scaling plans generated from project directory structures.
+
 ## 🚀 How to Run
 
 Navigate to the specific day's directory and execute the script using Python 3:
